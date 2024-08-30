@@ -3,7 +3,6 @@ import { Typography, Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
 import { useGetCryptosQuery } from '../services/cryptoapi';
 import Cryptocurrencies from './Cryptocurrencies';
-import News from './News';
 import Spinner from './Spinner';
 const HomePage = () => {
     
